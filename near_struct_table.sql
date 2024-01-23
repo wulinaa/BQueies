@@ -1,3 +1,5 @@
+-- The raw location data has been ingested into `sojern-warehouse.near.daily_foot_traffic`, where it collects the location of every device at any time.
+  
 WITH u AS (
   SELECT DISTINCT
     hashed_device_id,
